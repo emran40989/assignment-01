@@ -111,3 +111,43 @@ nav a{
 .live-preview-img{
     border-radius: 48px;
 }
+
+
+/* productive users section */
+.productive-user{
+    max-width: 1140px;
+    padding: 50px 80px;
+    margin: 0 auto;    
+    background-color: #4E47FF1A;
+}
+
+.productive-user-title{
+    margin: 0;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.user-number-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.number-container{
+    text-align: center;
+}
+
+.user-number{
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.user-info{
+    font-size: 20px;
+    color: #000000;
+    opacity: 50%;
+    margin: 0;
+}
+
