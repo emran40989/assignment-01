@@ -1,0 +1,52 @@
+/* shared style */
+.primary-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.primary-color{
+    color: #4E47FF;
+}
+
+.button{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: darkblue;
+    background-color: orange;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 50px 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #4E47FF;
+}
+
+.logo{
+    font-size: 34px;
+}
+
