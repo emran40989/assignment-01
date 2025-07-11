@@ -1,3 +1,7 @@
+body{
+    background-color: #FFFFFF80;
+}
+
 /* shared style */
 .primary-font{
   font-family: "Raleway", sans-serif;
@@ -119,6 +123,7 @@ nav a{
     padding: 50px 80px;
     margin: 0 auto;    
     background-color: #4E47FF1A;
+    border-radius: 24px;
 }
 
 .productive-user-title{
@@ -151,3 +156,58 @@ nav a{
     margin: 0;
 }
 
+
+/* get in touch */
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    gap: 185px;
+    align-items: center;
+    max-width: 1140px;
+    margin: 192px auto;
+    padding: 0px;
+}
+
+.in-touch-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    min-width: 528px;
+    margin: 0;
+    padding: 0;
+}
+
+label, input{
+    display: block;
+}
+
+form{
+    min-width: 497px;
+}
+
+input, textarea {
+    margin-bottom: 19px;
+    padding: 20px 32px;
+    width: 433px;
+    height: 30px;
+    font-size: 20px;
+    color:#000000;
+    opacity: 50%;
+    background-color:#FFFFFF;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+}
+
+textarea{
+    height: 135px;
+}
+
+label{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bttn{
+    width: 497px;
+}
