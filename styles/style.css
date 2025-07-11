@@ -1,32 +1,32 @@
-.body{
+.body {
     /* background-color: rgba(255, 255, 255, 0.5); */
     /* if i use background color like this its not worked, i don't know its display-color issue or other issue, thats why to visualize my project as like figma file i use a little bit different bg color */
     background-color: rgba(250, 250, 250, 0.5);
 }
 
 /* shared style */
-.primary-font{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.primary-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-.inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: 800;
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
 }
 
-.primary-color{
+.primary-color {
     color: #252432;
 }
 
-.secondary-color{
+.secondary-color {
     color: #4E47FF;
 }
 
-.button{
+.button {
     color: #FFFFFF;
     background-color: #4E47FF;
     font-size: 16px;
@@ -35,14 +35,14 @@
     border-radius: 10px;
     padding: 12px 36px;
     cursor: pointer;
-    transition: 
-    background-color 1s ease, 
-    color 1s ease, 
-    font-size 1s ease, 
-    font-weight 1s ease;
+    transition:
+        background-color 1s ease,
+        color 1s ease,
+        font-size 1s ease,
+        font-weight 1s ease;
 }
 
-.button:hover{
+.button:hover {
     font-weight: 700;
     font-size: 17px;
     color: darkblue;
@@ -52,7 +52,7 @@
 
 
 /* nav style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -60,23 +60,23 @@ nav{
     padding: 50px 0px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #4E47FF;
 }
 
-.logo{
+.logo {
     font-size: 34px;
 }
 
 
 
 /* header style */
-.header{
+.header {
     background-image: url('../images/Hero-bg.png');
 }
 
-.heading{
+.heading {
     font-size: 65px;
     font-weight: bold;
     color: #252432;
@@ -87,7 +87,7 @@ nav a{
 
 /* in figma banner shows 200px padding in bottom, but 200px include 48px of button, thats why i give 200-48=152px bottom padding in banner-content, i think its all right*/
 
-.banner-content{
+.banner-content {
     text-align: center;
     padding: 0 0 152px;
 }
@@ -95,7 +95,7 @@ nav a{
 
 
 /* See it in action section */
-.live-preview{
+.live-preview {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,62 +103,62 @@ nav a{
     margin: 120px auto;
 }
 
-.action-content{
+.action-content {
     max-width: 517px;
 }
 
-.action-content-title{
+.action-content-title {
     font-size: 42px;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 23px;
 }
 
-.action-content-description{
+.action-content-description {
     font-size: 24px;
     opacity: 50%;
     margin-top: 0;
     margin-bottom: 23px;
 }
 
-.live-preview-img{
+.live-preview-img {
     border-radius: 48px;
 }
 
 
 /* productive users section */
-.productive-user{
+.productive-user {
     max-width: 980px;
     padding: 50px 80px;
-    margin: 0 auto;    
+    margin: 0 auto;
     background-color: #4E47FF1A;
     border-radius: 24px;
 }
 
-.productive-user-title{
+.productive-user-title {
     margin: 0;
     text-align: center;
     font-size: 38px;
     font-weight: bold;
 }
 
-.user-number-container{
+.user-number-container {
     display: flex;
     justify-content: space-around;
 }
 
-.number-container{
+.number-container {
     text-align: center;
 }
 
-.user-number{
+.user-number {
     font-size: 80px;
     font-weight: bold;
     margin-top: 40px;
     margin-bottom: 0;
 }
 
-.user-info{
+.user-info {
     font-size: 20px;
     color: #000000;
     opacity: 50%;
@@ -166,15 +166,17 @@ nav a{
 }
 
 /* challange parts */
-.challange-part{
+.challange-part {
     margin: 137px auto;
 }
-.challange-part h2{
+
+.challange-part h2 {
     text-align: center;
     font-size: 42px;
     margin-bottom: 50px;
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: space-between;
     justify-items: center;
@@ -182,43 +184,43 @@ nav a{
     margin: 0 auto;
 }
 
-.challange-part .card{
-    background-color:#FFFFFF;
+.challange-part .card {
+    background-color: #FFFFFF;
     border: 1px solid #F2EDED;
     box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.137);
     border-radius: 14px;
     padding: 24px;
 }
 
-.challange-part .card2{
+.challange-part .card2 {
     margin: 0 20px;
 }
 
-.reviewer-info{
+.reviewer-info {
     display: flex;
     justify-content: flex-start;
     gap: 12px;
     align-items: center;
 }
 
-.feedback{
+.feedback {
     margin: 24px 0;
 }
 
-.review-date{
+.review-date {
     color: #B3B3B3;
 }
 
-.reviewer-info p{
+.reviewer-info p {
     margin: 0;
 }
 
-.reviewer-img{
+.reviewer-img {
     border-radius: 9999px;
 }
 
 /* get in touch */
-.get-in-touch{
+.get-in-touch {
     display: flex;
     justify-content: space-between;
     gap: 115px;
@@ -228,7 +230,7 @@ nav a{
     padding: 0px;
 }
 
-.in-touch-title{
+.in-touch-title {
     font-size: 97px;
     font-weight: bold;
     color: #000000;
@@ -237,43 +239,45 @@ nav a{
     padding: 0;
 }
 
-label, input{
+label,
+input {
     display: block;
 }
 
-form{
+form {
     min-width: 497px;
 }
 
-input, textarea {
+input,
+textarea {
     margin-bottom: 19px;
     padding: 20px 32px;
     width: 433px;
     height: 30px;
     font-size: 20px;
-    color:#000000;
-    background-color:#FFFFFF;
+    color: #000000;
+    background-color: #FFFFFF;
     border: 1px solid #D6DDED;
     border-radius: 10px;
 }
 
-textarea{
+textarea {
     height: 135px;
 }
 
-label{
+label {
     color: #000000;
     font-size: 18px;
     font-weight: 500;
 }
 
-.bttn{
+.bttn {
     width: 497px;
 }
 
 
 /* footer section */
-footer{
+footer {
     display: flex;
     align-items: center;
     height: 428px;
@@ -281,41 +285,42 @@ footer{
     width: 100%;
     margin: auto auto;
 }
-.footer{
+
+.footer {
     text-align: center;
     justify-items: center;
     justify-content: center;
     margin: auto auto;
 }
 
-footer .logo{
+footer .logo {
     font-size: 100px;
     text-align: center;
 }
 
-footer .subtitle{
+footer .subtitle {
     color: #8987A1;
     max-width: 531px;
     margin-top: 8px;
     margin-bottom: 20px;
 }
 
-footer .links{
+footer .links {
     display: flex;
     justify-content: space-around;
     gap: 48px;
     max-width: 531px;
 }
 
-.footer .links a{
+.footer .links a {
     color: #8987A1;
     text-decoration: none;
 }
 
 
 /* optional section  */
-.ready-to-focus{
-    max-width: 1140px;
+.ready-to-focus {
+    max-width: 840px;
     height: 555px;
     background-color: white;
     justify-items: center;
@@ -325,21 +330,21 @@ footer .links{
     border-radius: 14px;
 }
 
-.content .title{
+.content .title {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.content .template-info{
+.content .template-info {
     font-size: 16px;
     margin-bottom: 20px;
 }
 
-.content .button{
+.content .button {
     margin-bottom: 20px;
 }
 
-.img img{
+.img img {
     border-radius: 48px;
 }
