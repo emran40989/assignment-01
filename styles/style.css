@@ -1,5 +1,5 @@
-body{
-    background-color: #FFFFFF80;
+.body{
+    background-color: rgba(211, 211, 211, 0.247);
 }
 
 /* shared style */
@@ -243,7 +243,6 @@ input, textarea {
     height: 30px;
     font-size: 20px;
     color:#000000;
-    opacity: 50%;
     background-color:#FFFFFF;
     border: 1px solid #D6DDED;
     border-radius: 10px;
@@ -265,12 +264,19 @@ label{
 
 
 /* footer section */
-.footer{
+footer{
+    display: flex;
+    align-items: center;
+    height: 428px;
+    background-color: white;
     max-width: 1140px;
-    max-height: 428px;
-    margin: 0 auto;
+    margin: auto auto;
+}
+.footer{
     text-align: center;
     justify-items: center;
+    justify-content: center;
+    margin: auto auto;
 }
 
 footer .logo{
