@@ -1,5 +1,7 @@
 .body{
-    background-color: rgba(211, 211, 211, 0.247);
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* if i use background color like this its not worked, i don't know its display-color issue or other issue, thats why to visualize my project as like figma file i use a little bit different bg color */
+    background-color: rgba(250, 250, 250, 0.5);
 }
 
 /* shared style */
@@ -269,7 +271,7 @@ footer{
     align-items: center;
     height: 428px;
     background-color: white;
-    max-width: 1140px;
+    width: 100%;
     margin: auto auto;
 }
 .footer{
