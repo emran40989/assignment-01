@@ -156,6 +156,57 @@ nav a{
     margin: 0;
 }
 
+/* challange parts */
+.challange-part{
+    margin: 137px auto;
+}
+.challange-part h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.challange-part .card{
+    background-color:#FFFFFF;
+    border: 1px solid #F2EDED;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.137);
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.challange-part .card2{
+    margin: 0 20px;
+}
+
+.reviewer-info{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    align-items: center;
+}
+
+.feedback{
+    margin: 24px 0;
+}
+
+.review-date{
+    color: #B3B3B3;
+}
+
+.reviewer-info p{
+    margin: 0;
+}
+
+.reviewer-img{
+    border-radius: 9999px;
+}
 
 /* get in touch */
 .get-in-touch{
