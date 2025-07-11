@@ -311,3 +311,35 @@ footer .links{
     color: #8987A1;
     text-decoration: none;
 }
+
+
+/* optional section  */
+.ready-to-focus{
+    max-width: 1140px;
+    height: 555px;
+    background-color: white;
+    justify-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 71px 150px;
+    border-radius: 14px;
+}
+
+.content .title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content .template-info{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.content .button{
+    margin-bottom: 20px;
+}
+
+.img img{
+    border-radius: 48px;
+}
