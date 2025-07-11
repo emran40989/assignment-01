@@ -119,7 +119,7 @@ nav a{
 
 /* productive users section */
 .productive-user{
-    max-width: 1140px;
+    max-width: 980px;
     padding: 50px 80px;
     margin: 0 auto;    
     background-color: #4E47FF1A;
@@ -161,7 +161,7 @@ nav a{
 .get-in-touch{
     display: flex;
     justify-content: space-between;
-    gap: 185px;
+    gap: 115px;
     align-items: center;
     max-width: 1140px;
     margin: 192px auto;
@@ -210,4 +210,38 @@ label{
 
 .bttn{
     width: 497px;
+}
+
+
+/* footer section */
+.footer{
+    max-width: 1140px;
+    max-height: 428px;
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+}
+
+footer .logo{
+    font-size: 100px;
+    text-align: center;
+}
+
+footer .subtitle{
+    color: #8987A1;
+    max-width: 531px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+footer .links{
+    display: flex;
+    justify-content: space-around;
+    gap: 48px;
+    max-width: 531px;
+}
+
+.footer .links a{
+    color: #8987A1;
+    text-decoration: none;
 }
